@@ -1,0 +1,12 @@
+http://www.unicode.org/ucd/
+
+sorting
+
+mp4,mov,flv
+
+minimize to tray
+tooltip current song
+
+notify when playing next song
+
+help with help

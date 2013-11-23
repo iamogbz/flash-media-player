@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu>
+	<menu name="File" shortcut="" modify="false" separator="false">
+		<menu name="New" shortcut="n" modify="false" separator="false"/>
+		<menu name="Open" shortcut="o" modify="false" separator="false"/>
+		<menu name="Add" shortcut="" modify="false" separator="false">
+			<menu name="Files" shortcut="i" modify="false" separator="false"/>
+			<menu name="Folder" shortcut="I" modify="false" separator="false"/>
+		</menu>
+		<menu name="Remove" shortcut="d" modify="false" separator="false"/>
+		<menu name="Save" shortcut="s" modify="false" separator="false"/>
+		<menu name="" shortcut="" modify="false" separator="true"/>
+		<menu name="Exit" shortcut="q" modify="false" separator="false"/>
+	</menu>
+	<menu name="Playback" shortcut="" modify="false" separator="false">
+		<menu name="PlayPause" shortcut=" spacebar" modify="true" />
+		<menu name="Stop" shortcut="S" modify="false" />
+		<menu name="Previous" shortcut="P" modify="false" />
+		<menu name="Next" shortcut="N" modify="false" />
+		<menu name="" shortcut="" modify="false" separator="true"/>
+		<menu name="Mute" shortcut="M" modify="false" separator="false"/>
+		<menu name="Shuffle" shortcut="R" modify="false" separator="false"/>
+		<menu name="Loop" shortcut="L" modify="false" separator="false">
+			<menu name="No Loop" shortcut="" modify="false" separator="false"/>
+			<menu name="Loop current" shortcut="" modify="false" separator="false"/>
+			<menu name="Loop playlist" shortcut="" modify="false" separator="false"/>
+		</menu>
+	</menu>
+	<menu name="Edit" shortcut="" modify="false" separator="false">
+		<menu name="Fullscreen" shortcut="f" modify="false" />
+		<menu name="Settings" shortcut="" modify="false" separator="false">
+			<menu name="Show Playlist" shortcut="p" modify="false" separator="false"/>
+			<menu name="Always in front" shortcut="t" modify="false" separator="false"/>
+			<menu name="Minimize to tray" shortcut="m" modify="false" separator="false"/>
+			<menu name="" shortcut="" modify="false" separator="true"/>
+			<menu name="Sort Playlist" shortcut="" modify="false" separator="false">
+				<menu name="Album" shortcut="" modify="false" separator="false"/>
+				<menu name="Artist" shortcut="" modify="false" separator="false"/>
+				<menu name="Genre" shortcut="" modify="false" separator="false"/>
+				<menu name="Title" shortcut="" modify="false" separator="false"/>
+				<menu name="Year" shortcut="" modify="false" separator="false"/>
+			</menu>
+			<menu name="Audio Visualisation" shortcut="" modify="false" separator="false">
+				<menu name="Art" shortcut="" modify="false" separator="false"/>
+				<menu name="Bars" shortcut="" modify="false" separator="false"/>
+				<menu name="Board" shortcut="" modify="false" separator="false"/>
+				<menu name="Burst" shortcut="" modify="false" separator="false"/>
+				<menu name="Fire" shortcut="" modify="false" separator="false"/>
+				<menu name="Trail" shortcut="" modify="false" separator="false"/>
+				<menu name="Wave" shortcut="" modify="false" separator="false"/>
+			</menu>
+			<menu name="Video Scale" shortcut="" modify="false" separator="false">
+				<menu name="25" shortcut="1" modify="false" separator="false"/>
+				<menu name="50" shortcut="2" modify="false" separator="false"/>
+				<menu name="100" shortcut="3" modify="false" separator="false"/>
+				<menu name="200" shortcut="4" modify="false" separator="false"/>
+				<menu name="" shortcut="" modify="false" separator="true"/>
+				<menu name="Auto" shortcut="0" modify="false" separator="false"/>
+				<menu name="Fill" shortcut="F" modify="false" separator="false"/>
+				<menu name="Width" shortcut="W" modify="false" separator="false"/>
+				<menu name="Height" shortcut="H" modify="false" separator="false"/>
+			</menu>
+		</menu>
+	</menu>
+	<menu name="Help" shortcut="" modify="false" separator="false">
+		<menu name="Instructions" shortcut="i" modify="false" separator="false"/>
+		<menu name="About Developer" shortcut="" modify="false" separator="false"/>
+	</menu>
+</menu>

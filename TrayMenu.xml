@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu>
+	<menu name="PlayPause" shortcut=" spacebar" modify="true" />
+	<menu name="Stop" shortcut="S" modify="false" />
+	<menu name="Previous" shortcut="P" modify="false" />
+	<menu name="Next" shortcut="N" modify="false" />
+	<menu name="" shortcut="" modify="false" separator="true"/>
+	<menu name="Mute" shortcut="M" modify="false" separator="false"/>
+	<menu name="Shuffle" shortcut="R" modify="false" separator="false"/>
+	<menu name="Loop" shortcut="L" modify="false" separator="false">
+		<menu name="No Loop" shortcut="" modify="false" separator="false"/>
+		<menu name="Loop current" shortcut="" modify="false" separator="false"/>
+		<menu name="Loop playlist" shortcut="" modify="false" separator="false"/>
+	</menu>
+	<menu name="" shortcut="" modify="false" separator="true"/>
+	<menu name="Instructions" shortcut="" modify="true" separator="false"/>
+	<menu name="About Developer" shortcut="" modify="false" separator="false"/>
+	<menu name="" shortcut="" modify="false" separator="true"/>
+	<menu name="Exit" shortcut="q" modify="false" separator="false"/>
+</menu>

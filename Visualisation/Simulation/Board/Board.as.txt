@@ -1,0 +1,84 @@
+package Visualisation.Simulation.Bars {
+	import Visualisation.Simulation.Simulation;
+	import Visualisation.Particle.ParticleTrail;
+	import flash.display.Sprite;
+	import flash.utils.ByteArray;
+	import flash.filters.GlowFilter;
+	
+	public class Bars extends Simulation{
+		
+		private var board:Array;
+		private var padding:int;
+		private var size:Number;
+		private var numW:int, numH:int, numFloat:int;
+		private var color:uint = 0;
+		
+		public function Bars(_width:Number, _height:Number, type:String, padding:int = 0, numW:int = 32) {
+			super(_width, _height, type);
+			board = new Array(new Array());
+			this.padding = padding;
+			this.numW = numW;
+			this.size = _width/numW;
+			this.numH = _height/size;
+			this.numFloat = 512;
+			init();
+		}
+		
+		public function init():void{
+			for(var i:int = 0; i < numW; i++){
+				board[i] = [];
+				for(var j:int = 0; j < numH; j++){
+					var s:Sprite = new Sprite();
+					s.x = i*size;
+					s.y = j*size
+					this.draw(s, color);
+					this.addChild(s)
+					board[i][j] = s;
+				}
+			}
+		}
+		
+		public override function step(ba:ByteArray):void{
+			var amp:Number, pos:Number, higher:int, lower:int;
+			
+			for(var i:int = 0; i < board.length; i++){
+				amp = ba.readFloat();
+				pos = Math.round(board[i].length/2 + (amp * 10));
+				if(pos > board[i].length/2){
+					higher = pos;
+					lower = board[i].length/2;
+				}
+				else{
+					higher = board[i].length/2;
+					lower = pos;
+				}
+				var cc:Number = amp * 0xffffff;
+				for(var j:int = 0; j < board[i].length; j++){
+					if(j >= lower && j < higher){
+						this.draw(board[i][j] as Sprite, cc);
+						(board[i][j] as Sprite).filters = [new GlowFilter(cc, 1, 5,5,2,10)];
+					}
+					else{
+						this.draw(board[i][j] as Sprite, color);
+						(board[i][j] as Sprite).filters = [];
+					}
+				}
+			}
+		}
+		
+		public function draw(s:Sprite, color:uint):Sprite{
+			s.graphics.clear();
+			s.graphics.beginFill(color);
+			if(type == BarsType.CIRCLE){
+				s.graphics.drawEllipse(padding/2,padding/2,size - padding,size - padding);
+			}
+			else if(type == BarsType.SQUARE){
+				s.graphics.drawRect(padding/2,padding/2,size - padding,size - padding);
+			}
+			s.graphics.endFill();
+			return s;
+		}
+
+	}
+	
+}

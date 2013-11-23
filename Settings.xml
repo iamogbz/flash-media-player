@@ -1,0 +1,22 @@
+﻿<application xmlns="ogbizi">
+  <initialWindow>
+    <width>640</width>
+    <height>427</height>
+    <alwaysInFront>false</alwaysInFront>
+	<minimizeToTray>false</minimizeToTray>
+  </initialWindow>
+  <initialDisplay>
+    <visualisation>Wave</visualisation>
+    <scale>Auto</scale>
+  </initialDisplay>
+  <initialPlaylist>
+    <visible>true</visible>
+    <width>328</width>
+  </initialPlaylist>
+  <initialPlayer>
+    <loop>2</loop>
+    <shuffle>true</shuffle>
+    <mute>false</mute>
+    <volume>100</volume>
+  </initialPlayer>
+</application>

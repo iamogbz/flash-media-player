@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<application xmlns="http://ns.adobe.com/air/application/2.0">
+  <id>inc.ogbz.MediaPlayer</id>
+  <version>2.03</version>
+  <filename>MediaPlayer</filename>
+  <description>Ogbizi Media Player</description>
+  <name>MediaPlayer</name>
+  <copyright>Emmanuel Ogbizi-Ugbe</copyright>
+  <initialWindow>
+    <content>MediaPlayer.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <fullScreen>false</fullScreen>
+    <aspectRatio>portrait</aspectRatio>
+    <renderMode>auto</renderMode>
+    <minSize>450 138</minSize>
+    <maximizable>true</maximizable>
+    <minimizable>true</minimizable>
+    <resizable>true</resizable>
+  </initialWindow>
+  <icon>
+    
+    
+    
+    <image128x128>MediaPlayer_128.png</image128x128>
+    <image48x48>MediaPlayer_48.png</image48x48>
+    <image32x32>MediaPlayer_32.png</image32x32>
+    <image16x16>MediaPlayer_16.png</image16x16>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <fileTypes>
+    <fileType>
+      <name>MP3.Audio</name>
+      <extension>mp3</extension>
+      <description>Motion Picture Experts Group, Audio Layer 3</description>
+      <contentType>audio/mpeg3</contentType>
+      <icon>
+        
+        
+        
+        <image128x128>Media/Audio/mp3_128.png</image128x128>
+        <image16x16>Media/Audio/mp3_16.png</image16x16>
+        <image32x32>Media/Audio/mp3_32.png</image32x32>
+        <image48x48>Media/Audio/mp3_48.png</image48x48>
+      </icon>
+    </fileType>
+    <fileType>
+      <name>Ogbz.Playlist</name>
+      <extension>opl</extension>
+      <description>Playlist Xtensible Library</description>
+      <contentType>text/opl</contentType>
+      <icon>
+        
+        
+        
+        <image128x128>Media/opl_128.png</image128x128>
+        <image16x16>Media/opl_16.png</image16x16>
+        <image32x32>Media/opl_32.png</image32x32>
+        <image48x48>Media/opl_48.png</image48x48>
+      </icon>
+    </fileType>
+    <fileType>
+      <name>FLV.Video</name>
+      <extension>flv</extension>
+      <description>Flash Lite Video</description>
+      <contentType>video/flv</contentType>
+      <icon>
+        
+        
+        
+        <image128x128>Media/Video/flv_128.png</image128x128>
+        <image16x16>Media/Video/flv_16.png</image16x16>
+        <image32x32>Media/Video/flv_32.png</image32x32>
+        <image48x48>Media/Video/flv_48.png</image48x48>
+      </icon>
+    </fileType>
+    <fileType>
+      <name>MP4.Video</name>
+      <extension>mp4</extension>
+      <description>Motion Picture Experts Group, Video Layer 4</description>
+      <contentType>video/mp4</contentType>
+      <icon>
+        
+        
+        
+        <image128x128>Media/Video/mp4_128.png</image128x128>
+        <image16x16>Media/Video/mp4_16.png</image16x16>
+        <image32x32>Media/Video/mp4_32.png</image32x32>
+        <image48x48>Media/Video/mp4_48.png</image48x48>
+      </icon>
+    </fileType>
+    <fileType>
+      <name>MOV.Video</name>
+      <extension>mov</extension>
+      <description>Movie</description>
+      <contentType>video/mov</contentType>
+      <icon>
+        
+        
+        
+        <image128x128>Media/Video/mov_128.png</image128x128>
+        <image16x16>Media/Video/mov_16.png</image16x16>
+        <image32x32>Media/Video/mov_32.png</image32x32>
+        <image48x48>Media/Video/mov_48.png</image48x48>
+      </icon>
+    </fileType>
+    <fileType>
+      <name>M4V.Video</name>
+      <extension>m4v</extension>
+      <description>Motion Lite 4 Video</description>
+      <contentType>video/m4v</contentType>
+      <icon>
+        
+        
+        
+        <image128x128>Media/Video/m4v_128.png</image128x128>
+        <image16x16>Media/Video/m4v_16.png</image16x16>
+        <image32x32>Media/Video/m4v_32.png</image32x32>
+        <image48x48>Media/Video/m4v_48.png</image48x48>
+      </icon>
+    </fileType>
+    <fileType>
+      <name>WAV.Audio</name>
+      <extension>wav</extension>
+      <description>Waveform Audio</description>
+      <contentType>audio/wav</contentType>
+      <icon>
+        <image128x128>Media/Audio/wav_128.png</image128x128>
+        <image16x16>Media/Audio/wav_16.png</image16x16>
+        <image32x32>Media/Audio/wav_32.png</image32x32>
+        <image48x48>Media/Audio/wav_48.png</image48x48>
+      </icon>
+    </fileType>
+  </fileTypes>
+
+
+
+
+
+
+
+</application>
